@@ -1,0 +1,112 @@
+/* src/Login.css */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #fdfdfd;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-top: 8%;
+  margin-left: 15%;
+  height: 450px;
+}
+
+h2 {
+  margin-top:0%;
+  text-align: center;
+  color: #333;
+}
+p{
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 12.5%;
+  color:#333
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0%;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+button:disabled {
+  justify-content: center;
+  background-color: #46f867;
+  cursor: not-allowed;
+}
+
+/* Spinner */
+.spinner {
+  margin:auto;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f6f8f4;
+  border-top: 3px solid #13f968;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+.font-awesome-spinner{
+  width: 100%;
+  text-align: center;
+}
+.remember-me {
+  display: flex;
+  /* position: absolute; */
+  align-items: center;
+  justify-content:left;
+  margin-left: 10%;
+  margin-right: 300px;
+  margin-bottom: 15px;
+}
+
+.remember-me input[type="checkbox"] {
+  
+  margin-left: 0px;
+  margin-right: 10px;
+  align-items:normal;
+}
+
+
+
+
+
+
+/* Spinner Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

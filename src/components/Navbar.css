@@ -1,0 +1,66 @@
+.Logo{
+    position: relative;
+    display: flex;
+    height: 90px;
+    margin-top: 0%;
+    /* background-color: aqua; */
+  }
+  
+  .btn{
+    /* display:-webkit-inline-flex; */
+    background: rgb(250, 250, 250);
+    /* background-color: aqua; */
+    height: 55px;
+    font-size: 18px;
+    color: green ;
+    width: 125px;
+    border-radius: 16px;
+    border-color: white;
+    margin-left: 305px;
+    margin-top: 2%;
+  
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+
+  .tooltip-content h4 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .tooltip-content ul {
+    list-style: none;
+    padding: 1;
+  }
+
+  .tooltip-content li {
+   padding: 5px 0;;
+   color: lightgreen;
+  }
+  
+  .tooltip-arrow {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #333;
+  }
